@@ -1,5 +1,5 @@
 [Desktop Entry]
-Name=hel-pkg PKGBUILD Generator
+Name=hel-pkg
 Comment=A GUI tool to generate PKGBUILD files for Arch Linux packages
 Exec=python3 /opt/hel-pkg/hel_pkg_app.py
 Icon=/opt/hel-pkg/assets/pkg.png
