@@ -578,6 +578,15 @@ package() {
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
+    
+# Load Helwan Style (QSS)
+style_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "helwan_style.qss")
+if os.path.exists(style_path):
+    with open(style_path, "r", encoding="utf-8") as f:
+        app.setStyleSheet(f.read())
+
+
+                
     # تعيين اسم المنظمة والتطبيق لـ QStandardPaths
     app.setOrganizationName("YourOrganization") # يمكنك تغيير هذا
     app.setApplicationName("hel-pkg") # يجب أن يتطابق مع الاسم المستخدم في AppConfigLocation
