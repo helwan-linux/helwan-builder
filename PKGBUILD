@@ -1,7 +1,7 @@
 # Maintainer: Saeed Badrelden <saeedbadrelden2021@gmail.com>
 pkgname=hel-builder
 pkgver=1.0.0
-pkgrel=1
+pkgrel=2
 pkgdesc="A GUI tool to generate PKGBUILD files for Arch Linux packages."
 arch=('any')
 url="https://github.com/helwan-linux/helwan-builder"
